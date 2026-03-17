@@ -1,20 +1,113 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="/saimaa-islands/favicon.png" />
-    <title>Saimaa Islands — Private Island Investment on Lake Saimaa, Finland</title>
-    <meta name="description" content="A private island network investment on Lake Saimaa, Finland — inside Europe's last great freshwater wilderness. Natura 2000 protected zone. Minimum €10,000 entry." />
-    <meta name="author" content="Saimaa Islands Oy" />
-    <meta property="og:title" content="Saimaa Islands — Private Island Investment" />
-    <meta property="og:description" content="Assembling a private island network on Lake Saimaa, Finland. Natura 2000 protected zone. From €10,000." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <script type="module" crossorigin src="/saimaa-islands/assets/index-BhtqFvf6.js"></script>
-    <link rel="stylesheet" crossorigin href="/saimaa-islands/assets/index-DwW8bst_.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Saimaa Islands — Private Island Investment</title>
+    <meta name="description" content="Private island investment on Lake Saimaa, Finland. Natura 2000 protected zone. From €10,000." />
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #F8F4ED;
+            color: #2C2C2C;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .logo { max-width: 96px; margin-bottom: 20px; border-radius: 50%; }
+        h1 { font-size: 1.5rem; font-weight: 400; color: #1a1a1a; margin-bottom: 6px; }
+        .subtitle { color: #666; font-size: 0.9rem; margin-bottom: 40px; text-align: center; }
+        .deck-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; max-width: 780px; }
+        .deck-card {
+            background: white;
+            border-radius: 8px;
+            width: 340px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            overflow: hidden;
+        }
+        .card-main {
+            display: block;
+            padding: 28px 24px 16px;
+            text-decoration: none;
+            color: inherit;
+            transition: background 0.15s;
+        }
+        .card-main:hover { background: #f5f1ea; }
+        .card-main h2 { font-size: 1.1rem; margin-bottom: 6px; color: #1a1a1a; }
+        .card-main p { font-size: 0.85rem; color: #666; line-height: 1.5; }
+        .card-main .tag { font-size: 0.72rem; color: #8B4513; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .card-actions {
+            display: flex;
+            border-top: 1px solid #f0ebe3;
+        }
+        .card-actions a {
+            flex: 1;
+            padding: 11px 14px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            transition: background 0.15s;
+        }
+        .btn-view { color: #2C4A2E; background: #f5f1ea; }
+        .btn-view:hover { background: #ede8df; }
+        .btn-de { color: white; background: #2C4A2E; }
+        .btn-de:hover { background: #1e3320; }
+        .footer { margin-top: 50px; font-size: 0.8rem; color: #999; text-align: center; }
+        .footer a { color: #8B4513; }
+    </style>
+</head>
+<body>
+    <img src="logo.png" alt="Saimaa Islands" class="logo">
+    <h1>Saimaa Islands</h1>
+    <p class="subtitle">Private Island Investment · Lake Saimaa, Finland</p>
+
+    <div class="deck-grid">
+
+        <div class="deck-card">
+            <a href="https://saimaa-island-retreat.vercel.app" target="_blank" class="card-main">
+                <h2>Investor Website</h2>
+                <p>Interactive overview of the island portfolio — islands, vision, investment thesis, and contact form.</p>
+                <div class="tag">EN &amp; DE · Interactive</div>
+            </a>
+            <div class="card-actions">
+                <a href="https://saimaa-island-retreat.vercel.app" target="_blank" class="btn-view">▶ Open Website</a>
+            </div>
+        </div>
+
+        <div class="deck-card">
+            <a href="deck-en.html" class="card-main">
+                <h2>Investor Deck — English</h2>
+                <p>Six private islands on Lake Saimaa. Flagship: Kaarnetsaari — Balcony to Pristine Nature. Conservation-led investment from €10,000.</p>
+                <div class="tag">English · PDF-ready</div>
+            </a>
+            <div class="card-actions">
+                <a href="deck-en.html" class="btn-view">▶ View EN Deck</a>
+            </div>
+        </div>
+
+        <div class="deck-card">
+            <a href="deck-de.html" class="card-main">
+                <h2>Investoren-Präsentation — Deutsch</h2>
+                <p>Sechs Privatinseln auf dem Saimaa-See. Flaggschiff: Kaarnetsaari — Balkon zur Wildnis. Naturschutzorientierte Investition ab €10.000.</p>
+                <div class="tag">Deutsch · PDF-fertig</div>
+            </a>
+            <div class="card-actions">
+                <a href="deck-de.html" class="btn-de">▶ DE Deck öffnen</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Arctic Cruises Oy &middot; <a href="mailto:patrick.heiskanen@1658holdings.com">patrick.heiskanen@1658holdings.com</a>
+    </div>
+</body>
 </html>
